@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13204" started-at="2020-08-22T08:29:40 PDT" finished-at="2020-08-22T08:29:53 PDT">
+  <suite name="Suite" duration-ms="21668" started-at="2020-08-24T16:58:14 PDT" finished-at="2020-08-24T16:58:36 PDT">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="5614" started-at="2020-08-22T08:29:40 PDT" finished-at="2020-08-22T08:29:46 PDT">
+    <test name="ChromeTest" duration-ms="13737" started-at="2020-08-24T16:58:14 PDT" finished-at="2020-08-24T16:58:28 PDT">
       <class name="com.spicejet.DynamicDropDownTest">
-        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.spicejet.DynamicDropDownTest@4f063c0a]" name="setupBrowser" is-config="true" duration-ms="3501" started-at="2020-08-22T08:29:40 PDT" finished-at="2020-08-22T08:29:44 PDT">
+        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.spicejet.DynamicDropDownTest@4f063c0a]" name="setupBrowser" is-config="true" duration-ms="6606" started-at="2020-08-24T16:58:14 PDT" finished-at="2020-08-24T16:58:21 PDT">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method status="PASS" signature="dropDownTest()[pri:1, instance:com.spicejet.DynamicDropDownTest@4f063c0a]" name="dropDownTest" duration-ms="1938" started-at="2020-08-22T08:29:44 PDT" finished-at="2020-08-22T08:29:46 PDT">
+        <test-method status="PASS" signature="dropDownTest()[pri:1, instance:com.spicejet.DynamicDropDownTest@4f063c0a]" name="dropDownTest" duration-ms="6944" started-at="2020-08-24T16:58:21 PDT" finished-at="2020-08-24T16:58:28 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropDownTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.spicejet.DynamicDropDownTest@4f063c0a]" name="teardown" is-config="true" duration-ms="142" started-at="2020-08-22T08:29:46 PDT" finished-at="2020-08-22T08:29:46 PDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.spicejet.DynamicDropDownTest@4f063c0a]" name="teardown" is-config="true" duration-ms="149" started-at="2020-08-24T16:58:28 PDT" finished-at="2020-08-24T16:58:28 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.spicejet.DynamicDropDownTest -->
     </test> <!-- ChromeTest -->
-    <test name="FirefoxTest" duration-ms="13204" started-at="2020-08-22T08:29:40 PDT" finished-at="2020-08-22T08:29:53 PDT">
+    <test name="FirefoxTest" duration-ms="21668" started-at="2020-08-24T16:58:14 PDT" finished-at="2020-08-24T16:58:36 PDT">
       <class name="com.spicejet.DynamicDropDownTest">
-        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.spicejet.DynamicDropDownTest@27a8c74e]" name="setupBrowser" is-config="true" duration-ms="9369" started-at="2020-08-22T08:29:40 PDT" finished-at="2020-08-22T08:29:50 PDT">
+        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.spicejet.DynamicDropDownTest@27a8c74e]" name="setupBrowser" is-config="true" duration-ms="18029" started-at="2020-08-24T16:58:14 PDT" finished-at="2020-08-24T16:58:32 PDT">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method status="PASS" signature="dropDownTest()[pri:1, instance:com.spicejet.DynamicDropDownTest@27a8c74e]" name="dropDownTest" duration-ms="1058" started-at="2020-08-22T08:29:50 PDT" finished-at="2020-08-22T08:29:51 PDT">
+        <test-method status="PASS" signature="dropDownTest()[pri:1, instance:com.spicejet.DynamicDropDownTest@27a8c74e]" name="dropDownTest" duration-ms="983" started-at="2020-08-24T16:58:32 PDT" finished-at="2020-08-24T16:58:33 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropDownTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.spicejet.DynamicDropDownTest@27a8c74e]" name="teardown" is-config="true" duration-ms="2768" started-at="2020-08-22T08:29:51 PDT" finished-at="2020-08-22T08:29:53 PDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.spicejet.DynamicDropDownTest@27a8c74e]" name="teardown" is-config="true" duration-ms="2650" started-at="2020-08-24T16:58:33 PDT" finished-at="2020-08-24T16:58:36 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

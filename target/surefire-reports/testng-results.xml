@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23296" started-at="2020-08-24T16:57:08 PDT" finished-at="2020-08-24T16:57:31 PDT">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="13160" started-at="2020-08-24T16:57:08 PDT" finished-at="2020-08-24T16:57:21 PDT">
+      <class name="com.spicejet.DynamicDropDownTest">
+        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.spicejet.DynamicDropDownTest@7dc7cbad]" name="setupBrowser" is-config="true" duration-ms="6303" started-at="2020-08-24T16:57:08 PDT" finished-at="2020-08-24T16:57:14 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="dropDownTest()[pri:1, instance:com.spicejet.DynamicDropDownTest@7dc7cbad]" name="dropDownTest" duration-ms="6678" started-at="2020-08-24T16:57:14 PDT" finished-at="2020-08-24T16:57:21 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.spicejet.DynamicDropDownTest@7dc7cbad]" name="teardown" is-config="true" duration-ms="151" started-at="2020-08-24T16:57:21 PDT" finished-at="2020-08-24T16:57:21 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.spicejet.DynamicDropDownTest -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="23296" started-at="2020-08-24T16:57:08 PDT" finished-at="2020-08-24T16:57:31 PDT">
+      <class name="com.spicejet.DynamicDropDownTest">
+        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.spicejet.DynamicDropDownTest@59fa1d9b]" name="setupBrowser" is-config="true" duration-ms="18649" started-at="2020-08-24T16:57:08 PDT" finished-at="2020-08-24T16:57:27 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="dropDownTest()[pri:1, instance:com.spicejet.DynamicDropDownTest@59fa1d9b]" name="dropDownTest" duration-ms="981" started-at="2020-08-24T16:57:27 PDT" finished-at="2020-08-24T16:57:28 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.spicejet.DynamicDropDownTest@59fa1d9b]" name="teardown" is-config="true" duration-ms="3660" started-at="2020-08-24T16:57:28 PDT" finished-at="2020-08-24T16:57:31 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.spicejet.DynamicDropDownTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

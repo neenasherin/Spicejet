@@ -155,14 +155,14 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
-  &lt;test thread-count=&quot;2&quot; name=&quot;ChromeTest&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;ChromeTest&quot; parallel=&quot;tests&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.spicejet.DynamicDropDownTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ChromeTest --&gt;
-  &lt;test thread-count=&quot;2&quot; name=&quot;FirefoxTest&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;FirefoxTest&quot; parallel=&quot;tests&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;FireFox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.spicejet.DynamicDropDownTest&quot;/&gt;
@@ -212,16 +212,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'dropDownTest')
 data.setCell(0, 2, 'com.spicejet.DynamicDropDownTest')
-data.setCell(0, 3, 6944);
+data.setCell(0, 3, 6678);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'dropDownTest')
 data.setCell(1, 2, 'com.spicejet.DynamicDropDownTest')
-data.setCell(1, 3, 983);
+data.setCell(1, 3, 981);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -249,28 +249,28 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.spicejet.DynamicDropDownTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setupBrowser(FireFox)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-test before">
                 <span class="method-name">setupBrowser(Chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupBrowser(FireFox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">dropDownTest</span>
-                <span class="method-start">6633 ms</span>
+                <span class="method-start">6321 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">13583 ms</span>
+                <span class="method-start">13004 ms</span>
               </div> <!-- configuration-test after -->
               <div class="test-method">
                 <span class="method-name">dropDownTest</span>
-                <span class="method-start">18029 ms</span>
+                <span class="method-start">18650 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">19014 ms</span>
+                <span class="method-start">19631 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

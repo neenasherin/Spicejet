@@ -1,10 +1,12 @@
 package com.spicejet;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -37,14 +39,20 @@ public class DynamicDropDownTest {
 
 		WebElement orgin = driver.findElement(By.xpath("//input[@id='ctl00_mainContent_ddl_originStation1_CTXT']"));
 		orgin.click();
+		WebElement dest = driver.findElement(By.xpath("//input[@id='ctl00_mainContent_ddl_destinationStation1_CTXT']"));
 		driver.findElement(By.xpath("//a[@value='BLR']")).click();
 
-		String s = orgin.getText();
-		System.out.println("fgff" + s);
+		//String s = orgin.getText();
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		String valueOrg = (String) js.executeScript("return arguments[0].value",orgin);
+		
+		System.out.println("Origin" + valueOrg);
 		driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR']//a[@value='BOM']"))
 				.click();
-		System.out.println(driver.findElement(By.xpath("//input[@id='ctl00_mainContent_ddl_destinationStation1_CTXT']"))
-				.getText());
+		String valueDes = (String) js.executeScript("return arguments[0].value",dest);
+		System.out.println("Destination" + valueDes);
+		Assert.assertEquals(valueOrg, "Bengaluru (BLR)");
+		Assert.assertEquals(valueDes, "Mumbai (BOM)");
 	}
 
 	@AfterTest
